@@ -1,24 +1,28 @@
+# utils/music_generator.py
 import os
-import torchaudio
-from audiocraft.models import MusicGen
-from audiocraft.data.audio import audio_write
+import torch
+import soundfile as sf
+from transformers import AutoProcessor, MusicgenForConditionalGeneration
 
-# Load from local directory
-model = MusicGen.get_pretrained("musicgen_model")
-model.set_generation_params(duration=30)  
+MODEL_PATH = os.path.join("models", "musicgen-small")
 
-def generate_jingle(prompt, reference_audio_path=None, output_path="outputs/jingle_output1.wav"):
-    print(f"🎼 Generating music for prompt:\n{prompt}\n")
+def generate_music(prompt: str, duration: int, output_path: str) -> str:
+    """
+    Generates instrumental music using MusicGen.
+    """
+    print(f"🎵 Generating music for prompt: '{prompt}'...")
+    processor = AutoProcessor.from_pretrained(MODEL_PATH)
+    model = MusicgenForConditionalGeneration.from_pretrained(MODEL_PATH)
+    
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model.to(device)
 
-    if reference_audio_path and os.path.exists(reference_audio_path):
-        print(f"🎧 Using reference audio: {reference_audio_path}")
-        wav, sr = torchaudio.load(reference_audio_path)
-        wav = torchaudio.functional.resample(wav, orig_freq=sr, new_freq=model.sample_rate)
-        wav = wav.mean(dim=0, keepdim=True)  # Convert to mono
-        wav = wav[:, :model.sample_rate * 30]
-        output = model.generate_with_chroma([prompt], wav)[0]
-    else:
-        output = model.generate([prompt])[0]
+    inputs = processor(text=[prompt], padding=True, return_tensors="pt").to(device)
+    audio_values = model.generate(**inputs, max_new_tokens=int(duration * 50)) # ~50 tokens per second
 
-    audio_write(output_path.replace(".wav", ""), output.cpu(), model.sample_rate, strategy="loudness")
+    sampling_rate = model.config.audio_encoder.sampling_rate
+    audio_np = audio_values[0].cpu().numpy()
+    
+    sf.write(output_path, audio_np, sampling_rate)
+    print(f"✅ Music track saved to: {output_path}")
     return output_path

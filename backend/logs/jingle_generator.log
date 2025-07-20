@@ -1,0 +1,383 @@
+2025-07-20 03:30:00,628 - WARNING - CUDA is not available. Using CPU for MusicGen, which may result in slower performance. Consider installing PyTorch with CUDA support for better performance.
+2025-07-20 03:30:00,629 - INFO - Starting jingle generation pipeline...
+2025-07-20 03:30:00,630 - INFO - MusicGen model already available
+2025-07-20 03:30:00,630 - INFO - Bark-Small model already available
+2025-07-20 03:30:00,630 - INFO - Building prompts using Gemini...
+2025-07-20 03:30:34,835 - INFO - Music Prompt:
+Genre: Upbeat Pop, feel-good, slightly tropical.  Tempo: 120 bpm. Key: C Major.
+
+Instrumentation: Primarily acoustic instruments with a modern twist.  Include:
+
+* **(0-5 seconds):**  Bright acoustic guitar arpeggios, light hand percussion (shakers, claves).  Establish a happy, relaxed mood.
+* **(5-15 seconds):**  Introduction of ukulele or bright-sounding electric piano melody.  Melody should be catchy and memorable, slightly repetitive.  Maintain the light percussion.
+* **(15-25 seconds):**  Build-up section.  Add a bass line (acoustic or synth bass, light and bouncy).  Increase the volume and intensity of the instruments slightly, but keep it light and airy.  Perhaps add a simple synth pad for warmth.
+* **(25-30 seconds):**  Outro.  Melody repeats, then fades out with a final strum of the guitar and a light cymbal crash.  Maintain a positive and uplifting feeling.
+
+
+Overall mood:  Energetic, joyful, and refreshing. Think sunshine, fresh fruit, and active lifestyles.  The music should be clean, crisp, and avoid anything too heavy or dark.  The instrumentation should sound natural and wholesome.
+2025-07-20 03:30:34,835 - INFO - Lyrics:
+Krawings snacks, a happy treat,
+Healthy choices, oh so sweet!
+Energy boost, a vibrant day,
+Crave healthy, live happy, that's the way!
+2025-07-20 03:30:34,836 - INFO - Generating background music...
+2025-07-20 03:30:34,836 - INFO - Generating music for prompt:
+Genre: Upbeat Pop, feel-good, slightly tropical.  Tempo: 120 bpm. Key: C Major.
+
+Instrumentation: Primarily acoustic instruments with a modern twist.  Include:
+
+* **(0-5 seconds):**  Bright acoustic guitar arpeggios, light hand percussion (shakers, claves).  Establish a happy, relaxed mood.
+* **(5-15 seconds):**  Introduction of ukulele or bright-sounding electric piano melody.  Melody should be catchy and memorable, slightly repetitive.  Maintain the light percussion.
+* **(15-25 seconds):**  Build-up section.  Add a bass line (acoustic or synth bass, light and bouncy).  Increase the volume and intensity of the instruments slightly, but keep it light and airy.  Perhaps add a simple synth pad for warmth.
+* **(25-30 seconds):**  Outro.  Melody repeats, then fades out with a final strum of the guitar and a light cymbal crash.  Maintain a positive and uplifting feeling.
+
+
+Overall mood:  Energetic, joyful, and refreshing. Think sunshine, fresh fruit, and active lifestyles.  The music should be clean, crisp, and avoid anything too heavy or dark.  The instrumentation should sound natural and wholesome.
+2025-07-20 03:49:10,873 - INFO - Music generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\jingle_music.wav
+2025-07-20 03:49:10,947 - INFO - Generating vocals from lyrics...
+2025-07-20 03:49:10,948 - INFO - Generating vocals for lyrics:
+Krawings snacks, a happy treat,
+Healthy choices, oh so sweet!
+Energy boost, a vibrant day,
+Crave healthy, live happy, that's the way!
+2025-07-20 04:06:58,894 - ERROR - Error generating vocals: [Errno 28] No space left on device
+2025-07-20 04:06:58,895 - ERROR - Pipeline failed: [Errno 28] No space left on device
+2025-07-20 08:42:34,051 - WARNING - CUDA is not available. Using CPU for MusicGen, which may result in slower performance. Consider installing PyTorch with CUDA support for better performance.
+2025-07-20 08:42:34,067 - INFO - Starting jingle generation pipeline...
+2025-07-20 08:42:34,067 - INFO - MusicGen model already available
+2025-07-20 08:42:34,068 - INFO - Bark-Small model already available
+2025-07-20 08:42:34,068 - INFO - Building prompts using Gemini...
+2025-07-20 08:42:37,557 - INFO - Music Prompt:
+Genre: Upbeat Pop, feel-good, bright, slightly tropical.  Tempo: 120-140 BPM. Key: C Major.
+
+Instrumentation:  Bright acoustic guitar (strumming pattern emphasizing upbeat rhythm), light handclaps on beats 2 and 4,  bright ukulele melody (high register), bouncy bassline (walking bassline), subtle shaker/tambourine for rhythmic texture, and a light, playful synth melody weaving in and out. The synth should have a clean, bright tone, not overly processed or distorted.
+
+Structure:
+
+* **Intro (0-4 seconds):**  Acoustic guitar and bassline establish the tempo and key.  Handclaps enter on the second measure.
+* **Verse 1 (4-12 seconds):** Ukulele melody enters, joined by the shaker/tambourine and synth melody.  Focus on a light and cheerful feel.
+* **Chorus (12-20 seconds):**  All instruments play together, creating a fuller, more energetic sound. The ukulele melody becomes more prominent.  A slight increase in volume and intensity.
+* **Verse 2 (20-28 seconds):** Similar to Verse 1, but perhaps with a slight variation in the ukulele melody.
+* **Outro (28-30 seconds):**  A gradual fade out with the acoustic guitar and bassline remaining prominent until the end.
+2025-07-20 08:42:37,558 - INFO - Lyrics:
+Krawings snacks, a healthy treat,
+Sunshine smiles from head to feet!
+Happy tummy, happy heart,
+Krawings makes a joyful start!
+2025-07-20 08:42:37,559 - INFO - Generating background music...
+2025-07-20 08:42:37,559 - INFO - Generating music for prompt:
+Genre: Upbeat Pop, feel-good, bright, slightly tropical.  Tempo: 120-140 BPM. Key: C Major.
+
+Instrumentation:  Bright acoustic guitar (strumming pattern emphasizing upbeat rhythm), light handclaps on beats 2 and 4,  bright ukulele melody (high register), bouncy bassline (walking bassline), subtle shaker/tambourine for rhythmic texture, and a light, playful synth melody weaving in and out. The synth should have a clean, bright tone, not overly processed or distorted.
+
+Structure:
+
+* **Intro (0-4 seconds):**  Acoustic guitar and bassline establish the tempo and key.  Handclaps enter on the second measure.
+* **Verse 1 (4-12 seconds):** Ukulele melody enters, joined by the shaker/tambourine and synth melody.  Focus on a light and cheerful feel.
+* **Chorus (12-20 seconds):**  All instruments play together, creating a fuller, more energetic sound. The ukulele melody becomes more prominent.  A slight increase in volume and intensity.
+* **Verse 2 (20-28 seconds):** Similar to Verse 1, but perhaps with a slight variation in the ukulele melody.
+* **Outro (28-30 seconds):**  A gradual fade out with the acoustic guitar and bassline remaining prominent until the end.
+2025-07-20 09:09:31,242 - INFO - Music generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\jingle_music.wav
+2025-07-20 09:09:31,371 - INFO - Generating vocals from lyrics...
+2025-07-20 09:09:31,372 - INFO - Generating vocals for lyrics:
+Krawings snacks, a healthy treat,
+Sunshine smiles from head to feet!
+Happy tummy, happy heart,
+Krawings makes a joyful start!
+2025-07-20 09:21:16,272 - WARNING - CUDA is not available. Using CPU for MusicGen, which may result in slower performance. Consider installing PyTorch with CUDA support for better performance (see https://pytorch.org/get-started/locally/).
+2025-07-20 09:21:16,274 - INFO - Starting jingle generation pipeline...
+2025-07-20 09:21:16,275 - INFO - MusicGen model already available
+2025-07-20 09:21:16,275 - INFO - Bark-Small model already available
+2025-07-20 09:21:16,276 - INFO - Building prompts using Gemini...
+2025-07-20 09:21:20,500 - INFO - Music Prompt:
+Genre: Upbeat Pop, feel-good, bright, slightly funky.  Tempo: 120-130 bpm. Key: C Major.
+
+Instrumentation:  Acoustic guitar (bright, strummed chords), ukulele (light arpeggios), handclaps (on beats 2 & 4), bassline (walking bassline, upbeat and bouncy), light percussion (shaker, subtle tambourine), bright synth melody (simple, memorable, slightly playful).
+
+Structure:
+
+* **Intro (0-4 seconds):**  Ukulele arpeggio introduces the melody, joined by light percussion.
+* **Verse 1 (4-12 seconds):** Acoustic guitar enters with strummed chords, bassline begins.  Synth melody joins after 2 seconds.
+* **Chorus (12-20 seconds):** All instruments play together, creating a fuller, more energetic sound. Handclaps are prominent.  Synth melody is more prominent.
+* **Verse 2 (20-28 seconds):** Similar to Verse 1, slightly less intense.
+* **Outro (28-30 seconds):**  Music fades out gradually with ukulele and light percussion.
+2025-07-20 09:21:20,501 - INFO - Lyrics:
+Krawings, the healthy way to shine,
+Taste the goodness, feeling fine!
+Happy snacking, every bite,
+Krawings makes everything right!
+2025-07-20 09:21:20,501 - INFO - Generating background music...
+2025-07-20 09:21:20,501 - INFO - Generating music for prompt:
+Genre: Upbeat Pop, feel-good, bright, slightly funky.  Tempo: 120-130 bpm. Key: C Major.
+
+Instrumentation:  Acoustic guitar (bright, strummed chords), ukulele (light arpeggios), handclaps (on beats 2 & 4), bassline (walking bassline, upbeat and bouncy), light percussion (shaker, subtle tambourine), bright synth melody (simple, memorable, slightly playful).
+
+Structure:
+
+* **Intro (0-4 seconds):**  Ukulele arpeggio introduces the melody, joined by light percussion.
+* **Verse 1 (4-12 seconds):** Acoustic guitar enters with strummed chords, bassline begins.  Synth melody joins after 2 seconds.
+* **Chorus (12-20 seconds):** All instruments play together, creating a fuller, more energetic sound. Handclaps are prominent.  Synth melody is more prominent.
+* **Verse 2 (20-28 seconds):** Similar to Verse 1, slightly less intense.
+* **Outro (28-30 seconds):**  Music fades out gradually with ukulele and light percussion.
+2025-07-20 09:40:09,255 - INFO - Music generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\jingle_music.wav
+2025-07-20 09:40:09,358 - INFO - Generating vocals from lyrics...
+2025-07-20 09:40:09,361 - INFO - Generating vocals for lyrics:
+Krawings, the healthy way to shine,
+Taste the goodness, feeling fine!
+Happy snacking, every bite,
+Krawings makes everything right!
+2025-07-20 10:05:20,029 - WARNING - CUDA is not available. Using CPU, which may result in slower performance. Consider installing PyTorch with CUDA support (see https://pytorch.org/get-started/locally/).
+2025-07-20 10:05:20,040 - INFO - Starting jingle generation pipeline...
+2025-07-20 10:05:20,041 - INFO - Disk space check passed. Available: 74781.38 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 10:05:20,041 - INFO - Disk space check passed. Available: 74781.38 MB at C:\Users\91830\.cache\suno\bark_v0
+2025-07-20 10:05:20,042 - INFO - MusicGen model already available
+2025-07-20 10:05:20,042 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 10:05:20,042 - INFO - Downloading Bark-Small model...
+2025-07-20 10:05:20,042 - INFO - Disk space check passed. Available: 74781.38 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 10:05:23,235 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 10:05:23,235 - INFO - Building prompts using Gemini...
+2025-07-20 10:05:27,035 - INFO - Music Prompt:
+Genre: Upbeat Pop,  Tempo: 120 bpm, Key: C Major.
+
+Instrumentation:  Bright acoustic guitar strumming pattern (think Jack Johnson but slightly more energetic),  hand claps on beats 2 and 4, light shaker throughout,  bright, playful ukulele melody in the higher register,  subtle bass line walking up and down the C major scale.  A simple, repetitive synth melody enters around the 8 second mark, adding a touch of sweetness.  A short, uplifting horn stab (trumpet or similar) accents the main melody at the 15 and 25 second mark.  The music should build slightly in energy towards the end of the 30 seconds, then softly fade out.  The overall feel should be positive, energetic, and carefree, with a focus on bright and clean sounds.  Think of a feel-good summery vibe.  Avoid anything too complex or heavy; keep it simple and catchy.
+2025-07-20 10:05:27,037 - INFO - Lyrics:
+Krawings, the healthy choice,
+Happy taste, happy voice!
+Fuel your body, feel the bliss,
+Crave healthy, pure happiness!
+2025-07-20 10:05:27,038 - INFO - Generating background music...
+2025-07-20 10:05:27,038 - INFO - Disk space check passed. Available: 74781.36 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 10:05:27,038 - INFO - Generating music for prompt:
+Genre: Upbeat Pop,  Tempo: 120 bpm, Key: C Major.
+
+Instrumentation:  Bright acoustic guitar strumming pattern (think Jack Johnson but slightly more energetic),  hand claps on beats 2 and 4, light shaker throughout,  bright, playful ukulele melody in the higher register,  subtle bass line walking up and down the C major scale.  A simple, repetitive synth melody enters around the 8 second mark, adding a touch of sweetness.  A short, uplifting horn stab (trumpet or similar) accents the main melody at the 15 and 25 second mark.  The music should build slightly in energy towards the end of the 30 seconds, then softly fade out.  The overall feel should be positive, energetic, and carefree, with a focus on bright and clean sounds.  Think of a feel-good summery vibe.  Avoid anything too complex or heavy; keep it simple and catchy.
+2025-07-20 10:21:26,767 - INFO - Music generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\jingle_music.wav
+2025-07-20 10:21:26,913 - INFO - Generating vocals from lyrics...
+2025-07-20 10:21:26,915 - ERROR - Pipeline failed: module 'signal' has no attribute 'SIGALRM'
+2025-07-20 10:24:26,251 - WARNING - CUDA is not available. Using CPU, which may result in slower performance (vocal generation may take ~10-20 minutes). Consider installing PyTorch with CUDA support (see https://pytorch.org/get-started/locally/).
+2025-07-20 10:24:26,262 - INFO - Starting jingle generation pipeline...
+2025-07-20 10:24:26,263 - INFO - Disk space check passed. Available: 74741.15 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 10:24:26,263 - INFO - Disk space check passed. Available: 74741.15 MB at C:\Users\91830\.cache\suno\bark_v0
+2025-07-20 10:24:26,263 - INFO - MusicGen model already available
+2025-07-20 10:24:26,264 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 10:24:26,264 - INFO - Downloading Bark-Small model...
+2025-07-20 10:24:26,265 - INFO - Disk space check passed. Available: 74741.15 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 10:24:29,711 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 10:24:29,711 - INFO - Building prompts using Gemini...
+2025-07-20 10:24:33,383 - INFO - Music Prompt:
+Genre: Upbeat Pop, feel-good, slightly tropical
+Tempo: 120 BPM
+Key: C Major
+Instrumentation:  Acoustic guitar (bright, strummed), ukulele (light and playful), hand claps (subtle, throughout), bass line (walking bassline, upbeat), light synth melody (bright and airy,  with occasional playful arpeggios), optional marimba or vibraphone (subtle accents)
+Structure: Intro (4 bars), Verse (8 bars), Chorus (8 bars), Verse (8 bars), Chorus (8 bars), Outro (2 bars)
+Feel: Energetic, positive, summery, optimistic, slightly whimsical.  The melody should be memorable and easy to hum along to.  The overall feel should be light and refreshing, like a healthy snack on a sunny day.  The instrumental should create a feeling of happiness and well-being.  Avoid anything that sounds too "processed" or artificial.
+2025-07-20 10:24:33,383 - INFO - Lyrics:
+Krawings, healthy and bright,
+Taste the goodness, feeling light!
+Crave the crunch, feel the fun,
+Happy moments, everyone!
+2025-07-20 10:24:33,383 - INFO - Generating background music...
+2025-07-20 10:24:33,384 - INFO - Disk space check passed. Available: 74740.64 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 10:24:33,384 - INFO - Generating music for prompt:
+Genre: Upbeat Pop, feel-good, slightly tropical
+Tempo: 120 BPM
+Key: C Major
+Instrumentation:  Acoustic guitar (bright, strummed), ukulele (light and playful), hand claps (subtle, throughout), bass line (walking bassline, upbeat), light synth melody (bright and airy,  with occasional playful arpeggios), optional marimba or vibraphone (subtle accents)
+Structure: Intro (4 bars), Verse (8 bars), Chorus (8 bars), Verse (8 bars), Chorus (8 bars), Outro (2 bars)
+Feel: Energetic, positive, summery, optimistic, slightly whimsical.  The melody should be memorable and easy to hum along to.  The overall feel should be light and refreshing, like a healthy snack on a sunny day.  The instrumental should create a feeling of happiness and well-being.  Avoid anything that sounds too "processed" or artificial.
+2025-07-20 13:28:07,116 - WARNING - CUDA is not available. Using CPU, which may result in slower performance (vocal generation may take ~10-20 minutes). Consider installing PyTorch with CUDA support (see https://pytorch.org/get-started/locally/).
+2025-07-20 13:28:07,126 - INFO - Starting jingle generation pipeline...
+2025-07-20 13:28:07,127 - INFO - Disk space check passed. Available: 78234.79 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 13:28:07,127 - INFO - Disk space check passed. Available: 78234.79 MB at C:\Users\91830\.cache\suno\bark_v0
+2025-07-20 13:28:07,127 - INFO - MusicGen model already available
+2025-07-20 13:28:07,128 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 13:28:07,128 - INFO - Downloading Bark-Small model...
+2025-07-20 13:28:07,129 - INFO - Disk space check passed. Available: 78234.79 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 13:28:10,093 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 13:28:10,093 - INFO - Building prompts using Gemini...
+2025-07-20 13:28:14,610 - INFO - Music Prompt:
+Genre: Upbeat Pop, feel-good, slightly tropical
+
+Tempo: 120 BPM
+
+Instrumentation:  Bright acoustic guitar arpeggios (major key), light hand claps on the 2 and 4,  a playful ukulele riff in the chorus section, light synth bass line that's bouncy and not too low, bright marimba or glockenspiel melody  for a whimsical touch,  a subtle shaker/tambourine rhythm throughout.
+
+Structure:
+
+* **Intro (0-4 seconds):** Acoustic guitar arpeggios establish the key and mood.  Hand claps begin subtly.
+* **Verse 1 (4-8 seconds):** Ukulele riff introduces a slightly more upbeat feel.  Marimba/glockenspiel enters with a simple melodic line.
+* **Chorus (8-16 seconds):** All instruments come together.  More prominent hand claps.  The melody becomes more infectious and memorable.
+* **Verse 2 (16-20 seconds):** Similar instrumentation to Verse 1, but with slight melodic variation.
+* **Chorus (20-28 seconds):**  Repeat of the Chorus section, possibly with a slight build-up in volume or instrumentation.
+* **Outro (28-30 seconds):**  Fade out with acoustic guitar arpeggios and hand claps.  The ukulele riff should linger slightly before fading.
+
+
+Key:  C Major (or a similarly bright key)
+
+Overall feeling:  Light, airy, sunshine-y, energetic, and inviting.  The music should be undeniably happy and uplifting, reflecting the "Live Happy" aspect of the motto. The instrumentation should be clean and crisp, suggesting freshness and health.
+2025-07-20 13:28:14,610 - INFO - Lyrics:
+Krawings snacks, a healthy treat,
+Energy boost, can't be beat!
+Taste the sunshine, feel the fun,
+Happy living's just begun!
+2025-07-20 13:28:14,611 - INFO - Generating background music...
+2025-07-20 13:28:14,611 - INFO - Disk space check passed. Available: 78234.78 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 13:28:14,611 - INFO - Generating music for prompt:
+Genre: Upbeat Pop, feel-good, slightly tropical
+
+Tempo: 120 BPM
+
+Instrumentation:  Bright acoustic guitar arpeggios (major key), light hand claps on the 2 and 4,  a playful ukulele riff in the chorus section, light synth bass line that's bouncy and not too low, bright marimba or glockenspiel melody  for a whimsical touch,  a subtle shaker/tambourine rhythm throughout.
+
+Structure:
+
+* **Intro (0-4 seconds):** Acoustic guitar arpeggios establish the key and mood.  Hand claps begin subtly.
+* **Verse 1 (4-8 seconds):** Ukulele riff introduces a slightly more upbeat feel.  Marimba/glockenspiel enters with a simple melodic line.
+* **Chorus (8-16 seconds):** All instruments come together.  More prominent hand claps.  The melody becomes more infectious and memorable.
+* **Verse 2 (16-20 seconds):** Similar instrumentation to Verse 1, but with slight melodic variation.
+* **Chorus (20-28 seconds):**  Repeat of the Chorus section, possibly with a slight build-up in volume or instrumentation.
+* **Outro (28-30 seconds):**  Fade out with acoustic guitar arpeggios and hand claps.  The ukulele riff should linger slightly before fading.
+
+
+Key:  C Major (or a similarly bright key)
+
+Overall feeling:  Light, airy, sunshine-y, energetic, and inviting.  The music should be undeniably happy and uplifting, reflecting the "Live Happy" aspect of the motto. The instrumentation should be clean and crisp, suggesting freshness and health.
+2025-07-20 13:52:29,189 - INFO - Music generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\jingle_music.wav
+2025-07-20 13:52:29,292 - INFO - Generating vocals from lyrics...
+2025-07-20 13:52:29,466 - INFO - Disk space check passed. Available: 77712.42 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 13:52:29,466 - INFO - Generating vocals for lyrics:
+Krawings snacks, a healthy treat,
+Energy boost, can't be beat!
+Taste the sunshine, feel the fun,
+Happy living's just begun!
+2025-07-20 13:52:29,470 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 13:52:29,471 - INFO - Downloading Bark-Small model...
+2025-07-20 13:52:29,471 - INFO - Disk space check passed. Available: 77712.42 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 13:52:34,134 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 14:02:29,480 - ERROR - Function generate_vocals timed out after 600 seconds
+2025-07-20 14:02:29,487 - ERROR - Pipeline failed: Function generate_vocals timed out after 600 seconds
+2025-07-20 14:30:38,446 - WARNING - CUDA is not available. Using CPU, which may result in slower performance (vocal generation may take ~10-20 minutes). Consider installing PyTorch with CUDA support (see https://pytorch.org/get-started/locally/).
+2025-07-20 14:30:38,447 - INFO - Starting jingle generation pipeline...
+2025-07-20 14:30:38,447 - INFO - Disk space check passed. Available: 77042.98 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 14:30:38,448 - INFO - Disk space check passed. Available: 77042.98 MB at C:\Users\91830\.cache\suno\bark_v0
+2025-07-20 14:30:38,448 - INFO - MusicGen model already available
+2025-07-20 14:30:38,449 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 14:30:38,449 - INFO - Downloading Bark-Small model...
+2025-07-20 14:30:38,450 - INFO - Disk space check passed. Available: 77042.98 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 14:30:40,017 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 14:30:40,017 - INFO - Building prompts using Gemini...
+2025-07-20 14:30:44,947 - INFO - Music Prompt:
+Genre: Upbeat Pop, slightly tropical/summery feel.  Tempo: 120-140 bpm. Key: C Major.
+
+Instrumentation:  Acoustic guitar (bright, strummed chords), ukulele (light, playful melody), hand claps (throughout), shaker (subtle rhythm), bass line (walking bass, light and bouncy), light synth pads (supporting chords, creating a sense of warmth and airiness).  A short, memorable melody should be the focus.  The arrangement should build slightly in energy towards the middle, then soften again towards the end.  The overall feeling should be optimistic, energetic, and refreshing.  Include a short, memorable melodic hook that repeats subtly throughout.  Consider adding a playful, slightly quirky sound effect (e.g., a soft chime or bell) at the beginning and end.
+2025-07-20 14:30:44,948 - INFO - Lyrics:
+Krawings, healthy and bright,
+Taste the goodness, feeling light!
+Happy snacks for every day,
+Krawings makes your worries sway!
+2025-07-20 14:30:44,948 - INFO - Generating background music...
+2025-07-20 14:30:44,948 - INFO - Disk space check passed. Available: 77042.79 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 14:30:44,949 - INFO - Generating music for prompt:
+Genre: Upbeat Pop, slightly tropical/summery feel.  Tempo: 120-140 bpm. Key: C Major.
+
+Instrumentation:  Acoustic guitar (bright, strummed chords), ukulele (light, playful melody), hand claps (throughout), shaker (subtle rhythm), bass line (walking bass, light and bouncy), light synth pads (supporting chords, creating a sense of warmth and airiness).  A short, memorable melody should be the focus.  The arrangement should build slightly in energy towards the middle, then soften again towards the end.  The overall feeling should be optimistic, energetic, and refreshing.  Include a short, memorable melodic hook that repeats subtly throughout.  Consider adding a playful, slightly quirky sound effect (e.g., a soft chime or bell) at the beginning and end.
+2025-07-20 14:43:42,540 - INFO - Music generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\jingle_music.wav
+2025-07-20 14:43:42,612 - INFO - Generating vocals from lyrics...
+2025-07-20 14:43:42,616 - INFO - Disk space check passed. Available: 77042.46 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 14:43:42,617 - INFO - Generating vocals for lyrics:
+Krawings, healthy and bright,
+Taste the goodness, feeling light!
+Happy snacks for every day,
+Krawings makes your worries sway!
+2025-07-20 14:43:42,618 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 14:43:42,619 - INFO - Downloading Bark-Small model...
+2025-07-20 14:43:42,619 - INFO - Disk space check passed. Available: 77042.46 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 14:43:44,601 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 15:17:09,468 - ERROR - Function generate_vocals timed out after 600 seconds
+2025-07-20 15:17:09,504 - ERROR - Pipeline failed: Function generate_vocals timed out after 600 seconds
+2025-07-20 15:21:14,900 - WARNING - CUDA is not available. Using CPU, which may result in slower performance (vocal generation may take ~10-20 minutes). Consider installing PyTorch with CUDA support (see https://pytorch.org/get-started/locally/).
+2025-07-20 15:21:14,902 - INFO - Starting jingle generation pipeline...
+2025-07-20 15:21:14,902 - INFO - Disk space check passed. Available: 76842.94 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 15:21:14,902 - INFO - Disk space check passed. Available: 76842.94 MB at C:\Users\91830\.cache\suno\bark_v0
+2025-07-20 15:21:14,903 - INFO - MusicGen model already available
+2025-07-20 15:21:14,903 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 15:21:14,904 - INFO - Downloading Bark-Small model...
+2025-07-20 15:21:14,904 - INFO - Disk space check passed. Available: 76842.94 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 15:21:16,267 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 15:21:16,268 - INFO - Building prompts using Gemini...
+2025-07-20 15:21:20,419 - INFO - Music Prompt:
+Genre: Upbeat Pop, feel-good, bright
+
+Tempo: 120-140 BPM
+
+Instrumentation:  Acoustic guitar (bright, strummed), ukulele (light and playful), handclaps, light percussion (shaker, tambourine), bassline (walking bassline, upbeat and bouncy), synth melody (bright, major key, arpeggiated).
+
+Structure:
+
+* **Intro (0-4 seconds):**  Ukulele and acoustic guitar intro, light and playful.  Handclaps enter on beat 2 of bar 2.
+* **Verse 1 (4-12 seconds):**  Bassline enters, synth melody joins,  building slightly in intensity. Percussion (shaker) adds texture.
+* **Chorus (12-20 seconds):**  All instruments play together, full and vibrant.  Tempo slightly increases.  Handclaps become more prominent.
+* **Verse 2 (20-28 seconds):** Similar to Verse 1, slightly less intense.
+* **Outro (28-30 seconds):**  Fade out with ukulele and acoustic guitar, leaving a feeling of lightness and happiness.  Handclaps trail off.
+
+
+Key:  C Major or G Major
+
+
+Feel:  Energetic, optimistic, youthful, playful, refreshing.  Think of a sunny day, fresh fruit, and feeling great.  Avoid anything too cheesy or overly saccharine.
+2025-07-20 15:21:20,419 - INFO - Lyrics:
+Krawings snacks, a healthy treat,
+Taste the goodness, can't be beat!
+Happy body, happy mind,
+The perfect snack, you're sure to find!
+2025-07-20 15:21:20,419 - INFO - Generating background music...
+2025-07-20 15:21:20,420 - INFO - Disk space check passed. Available: 76842.48 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 15:21:20,420 - INFO - Generating music for prompt:
+Genre: Upbeat Pop, feel-good, bright
+
+Tempo: 120-140 BPM
+
+Instrumentation:  Acoustic guitar (bright, strummed), ukulele (light and playful), handclaps, light percussion (shaker, tambourine), bassline (walking bassline, upbeat and bouncy), synth melody (bright, major key, arpeggiated).
+
+Structure:
+
+* **Intro (0-4 seconds):**  Ukulele and acoustic guitar intro, light and playful.  Handclaps enter on beat 2 of bar 2.
+* **Verse 1 (4-12 seconds):**  Bassline enters, synth melody joins,  building slightly in intensity. Percussion (shaker) adds texture.
+* **Chorus (12-20 seconds):**  All instruments play together, full and vibrant.  Tempo slightly increases.  Handclaps become more prominent.
+* **Verse 2 (20-28 seconds):** Similar to Verse 1, slightly less intense.
+* **Outro (28-30 seconds):**  Fade out with ukulele and acoustic guitar, leaving a feeling of lightness and happiness.  Handclaps trail off.
+
+
+Key:  C Major or G Major
+
+
+Feel:  Energetic, optimistic, youthful, playful, refreshing.  Think of a sunny day, fresh fruit, and feeling great.  Avoid anything too cheesy or overly saccharine.
+2025-07-20 15:41:33,205 - INFO - Music generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\jingle_music.wav
+2025-07-20 15:41:33,290 - INFO - Generating vocals from lyrics...
+2025-07-20 15:41:33,456 - INFO - Disk space check passed. Available: 76650.43 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 15:41:33,456 - INFO - Generating vocals for lyrics:
+Krawings snacks, a healthy treat,
+Taste the goodness, can't be beat!
+Happy body, happy mind,
+The perfect snack, you're sure to find!
+2025-07-20 15:41:33,458 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 15:41:33,458 - INFO - Downloading Bark-Small model...
+2025-07-20 15:41:33,459 - INFO - Disk space check passed. Available: 76650.43 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 15:41:35,225 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 15:53:53,340 - INFO - Vocals generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\jingle_voice.wav
+2025-07-20 15:53:53,365 - INFO - Merging music and vocals...
+2025-07-20 15:53:53,372 - INFO - Disk space check passed. Available: 74982.12 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 15:53:53,372 - INFO - Combining audio tracks...
+2025-07-20 15:53:53,894 - INFO - Final jingle saved to: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\final_jingle.wav
+2025-07-20 15:53:53,895 - INFO - Pipeline completed successfully!
+2025-07-20 15:53:53,896 - INFO - Testing Bark speech generation...
+2025-07-20 15:53:53,898 - INFO - Disk space check passed. Available: 74980.43 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 15:53:53,902 - INFO - Disk space check passed. Available: 74980.43 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\outputs
+2025-07-20 15:53:53,902 - INFO - Generating vocals for lyrics:
+Hello, my name is Suno. And, uh — and I like pizza. [laughs] But I also have other interests such as playing tic tac toe.
+2025-07-20 15:53:53,905 - WARNING - Local Bark model incomplete. Missing files: text_2.pt, coarse_2.pt, fine_2.pt
+2025-07-20 15:53:53,905 - INFO - Downloading Bark-Small model...
+2025-07-20 15:53:53,905 - INFO - Disk space check passed. Available: 74980.42 MB at C:\Users\91830\Desktop\appp\jingly-AI-new\models
+2025-07-20 15:53:58,355 - INFO - Bark-Small model downloaded and cached successfully
+2025-07-20 16:05:40,602 - INFO - Vocals generated at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\test_speech.wav
+2025-07-20 16:05:40,615 - INFO - Test speech generated successfully at: C:\Users\91830\Desktop\appp\jingly-AI-new\outputs\test_speech.wav
