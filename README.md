@@ -1,7 +1,9 @@
-Jingly AI
-Basic Details
-Team Name: Mavericks
+# Jingly AI
 
+
+*Basic Details*
+
+Team Name: Mavericks
 Team Members:  
 
 Abhijith N P 
